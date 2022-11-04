@@ -13,15 +13,12 @@ import Image from "next/image";
 
 import tempBar from "../../../assets/tempBar.png"
 import tempDoughnut from "../../../assets/tempDoughnut.png"
+import Protected from "../../../components/Protected";
 
 function Dashboard() {
 
 const [user, setUser] = useState(true)
 
-import Protected from "../../../components/Protected";
-
-function Dashboard() {
-     {
         return (
             <Protected>
                 <div className="dashboard-container center w-100">
