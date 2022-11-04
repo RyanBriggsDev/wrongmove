@@ -70,6 +70,5 @@ const [user, setUser] = useState(true)
             </Protected>
         )
     }
-}
 
 export default Dashboard
